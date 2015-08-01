@@ -2,18 +2,21 @@
 using System.Collections;
 
 public class Main : MonoBehaviour {
-	public GameObject obj;
+
+	public Texture2D crosshairTexture;
+	public float crosshairScale = 1;
 	// Use this for initialization
 	void Start () {
-		for (int i = 0; i < 3; i++) {
-			for (int j = 0; j < 3; j++) {
-				Instantiate (obj, new Vector3((i-1)*2,(j-1)*2,0), Quaternion.identity);
-			}
-		}
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+			 
 	}
+
+	void OnGUI() {
+		GUI.DrawTexture(new Rect((Screen.width-crosshairTexture.width*crosshairScale)/2 ,(Screen.height-crosshairTexture.height*crosshairScale)/2, crosshairTexture.width*crosshairScale, crosshairTexture.height*crosshairScale),crosshairTexture);
+	}
+
 }
