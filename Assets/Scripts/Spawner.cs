@@ -27,7 +27,8 @@ public class Spawner : MonoBehaviour {
 	public void Spawn() {
 		if (Time.time - lastSpawned > spawnTime) {
 			lastSpawned = Time.time;
-			Instantiate (Spawning, transform.position, transform.rotation);
+			GameObject spawned = Instantiate (Spawning, transform.position, transform.rotation) as GameObject;
+			spawned.GetComponent<FollowObject>().enabled = true;
 		}
 	}
 }

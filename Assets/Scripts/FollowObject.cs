@@ -8,7 +8,7 @@ public class FollowObject : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		if (following == null) {
-			following = GameObject.Find ("RigidBodyFPSController");
+			following = GameObject.Find ("Player");
 		}
 	}
 	

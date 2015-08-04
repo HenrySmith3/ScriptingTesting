@@ -52,14 +52,14 @@
      <None Include="Assets\Utility Shaders Free\Shaders\USV1 Preview Distort Texture.shader" />
      <None Include="Assets\Utility Shaders Free\Shaders\USV4 Preview Cartography.shader" />
      <None Include="Assets\Utility Shaders Free\Shaders\USV3 Preview Spherize.shader" />
-     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Utility Shaders Free\Shaders\USV2 Preview Bar Graph.shader" />
      <None Include="Assets\Utility Shaders Free\Shaders\USV5 Preview Numbers.shader" />
      <None Include="Assets\Utility Shaders Free\Shaders\USV5 Preview Digital Screen.shader" />
-     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Utility Shaders Free\Shaders\USV6 Preview Radar.shader" />
-     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Utility Shaders Free\Shaders\USV1 Preview Pixelated Noise.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -114,8 +114,6 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{EE8DE120-DEBA-C724-BF43-AF00C6A42A96}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
       <Project>{4DEE028F-0CBE-2B32-06BE-E51868ABD67D}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
